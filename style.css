@@ -1,0 +1,113 @@
+/*-----------
+    fonts
+------------*/
+@import url("https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&family=Poppins:wght@500&family=Rokkitt&display=swap");
+/*-----------
+    important
+------------- */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+a {
+  text-decoration: none;
+  background-color: #e02c6d;
+  color: aliceblue;
+  padding: 10px 20px;
+  border-radius: 15px;
+  align-items: center;
+  margin-top: 30px;
+}
+.button {
+  margin-top: 30px;
+}
+.button:hover a {
+  border: 6px solid #e02c6d;
+  padding: 4px 14px;
+  background-color: white;
+  color: black;
+}
+/*------------
+     header
+------------- */
+header {
+  margin-top: 40px;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+ul {
+  display: flex;
+}
+ul li {
+  list-style: none;
+  margin-left: 40px;
+}
+
+.fa-searchengin {
+  font-size: 1.7em;
+}
+.fa-cart-plus {
+  font-size: 1.7em;
+}
+.fa-star {
+  color: #ff9529;
+}
+/*-----------------
+    main-section
+------------------ */
+.main-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 80px;
+}
+.focus-area {
+  font-size: 52px;
+}
+.juarny-information {
+  width: 500px;
+}
+.main-image {
+  width: 500px;
+  background-color: rgba(250, 235, 215, 0.644);
+  border-radius: 40%;
+}
+.heighlight {
+  color: #e02c6d;
+}
+/*----------------
+ second-section 
+ ---------------*/
+.section2-heddding {
+  text-align: center;
+  margin-top: 60px;
+}
+.second-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  margin-top: 100px;
+  grid-row-gap: 40px;
+}
+
+.product {
+  box-shadow: 0.2px 0.2px 30px rgba(128, 128, 128, 0.486);
+  width: 315px;
+  height: 450px;
+  padding-left: 15px;
+  padding-top: 15px;
+  border-radius: 10px;
+}
+.product-info {
+  width: 300px;
+}
+.product-name {
+  font-size: 30px;
+}
