@@ -13,7 +13,7 @@
 body {
   font-family: "Poppins", sans-serif;
 }
-a {
+.button > a {
   text-decoration: none;
   background-color: #e02c6d;
   color: aliceblue;
@@ -37,6 +37,9 @@ a {
 header {
   margin-top: 40px;
 }
+/* .site-name {
+  font-size: 25px;
+} */
 nav {
   display: flex;
   align-items: center;
@@ -58,6 +61,9 @@ ul li {
 }
 .fa-star {
   color: #ff9529;
+}
+.fa-arrow {
+  padding-left: 10px;
 }
 /*-----------------
     main-section
@@ -88,13 +94,16 @@ ul li {
 .section2-heddding {
   text-align: center;
   margin-top: 60px;
+  font-size: 30px;
 }
 .second-section {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+
   justify-items: center;
-  margin-top: 100px;
+  /* margin-top: 100px; */
   grid-row-gap: 40px;
+  margin: 100px 80px 0 80px;
 }
 
 .product {
@@ -110,4 +119,48 @@ ul li {
 }
 .product-name {
   font-size: 30px;
+}
+.more-info {
+  margin-top: 50px;
+  margin-left: 1180px;
+}
+.more-info a {
+  text-decoration: none;
+  color: #e02c6d;
+}
+.more-info .fas {
+  color: #e02c6d;
+  margin-left: 10px;
+}
+/*----------------
+    last-section
+------------------*/
+.featured {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+.featured-image {
+  width: 250px;
+}
+.featured-info {
+  width: 700px;
+}
+.focus-area2 {
+  font-size: 40px;
+}
+.info {
+  width: 500px;
+}
+
+/*----------------
+      footer 
+-----------------*/
+footer {
+  height: 239px;
+  background-color: #0a0826;
+  margin-top: 100px;
+  color: rgba(240, 248, 255, 0.644);
+  text-align: center;
+  padding-top: 95px;
 }
