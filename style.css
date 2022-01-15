@@ -87,9 +87,14 @@ ul li {
   width: 500px;
   background-color: rgba(250, 235, 215, 0.644);
   border-radius: 40%;
+  /* overflow: hidden; */
 }
 .heighlight {
   color: #e02c6d;
+}
+.main-image:hover img {
+  transform: scale(1.2) rotate(360deg);
+  transition: transform 3s;
 }
 /*----------------
  second-section 
@@ -186,6 +191,7 @@ button {
   font-weight: 700;
   color: aliceblue;
   margin-top: 10px;
+  border-radius: 7px;
 }
 /*----------------
       footer 
