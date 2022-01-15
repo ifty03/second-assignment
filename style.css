@@ -22,6 +22,7 @@ body {
   border-radius: 15px;
   align-items: center;
   margin-top: 30px;
+  border: none;
 }
 .button {
   margin-top: 30px;
@@ -140,6 +141,9 @@ ul li {
   color: #e02c6d;
   margin-left: 10px;
 }
+.products-detils {
+  font-size: 20px;
+}
 /*----------------
     last-section
 ------------------*/
@@ -174,7 +178,7 @@ ul li {
   background-color: #e664942a;
   width: 700px;
   padding: 50px;
-  border-radius: 10px;
+  border-radius: 20px;
   margin-top: 60px;
 }
 .feedback-container input,
@@ -184,6 +188,8 @@ textarea {
   margin-top: 7px;
   padding-left: 10px;
   background-color: #fadde8;
+  border-radius: 5px;
+  border: 2px solid rgba(128, 128, 128, 0.589);
 }
 button {
   height: 40px;
@@ -193,6 +199,7 @@ button {
   color: aliceblue;
   margin-top: 10px;
   border-radius: 7px;
+  border: 2px solid #e02c6ede;
 }
 /*----------------
       footer 

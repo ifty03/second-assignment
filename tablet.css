@@ -1,3 +1,7 @@
+/*--------------------
+         header
+---------------------*/
+
 header {
   width: 100%;
 }
@@ -9,6 +13,10 @@ ul li {
   margin-left: -10px;
   padding-left: 30px;
 }
+
+/*--------------------
+     main-section
+---------------------*/
 .main-image {
   width: 60%;
 }
@@ -22,6 +30,11 @@ ul li {
 .main-image img {
   width: 300px;
 }
+
+/*-------------------
+    second section
+--------------------*/
+
 .second-section {
   grid-template-columns: repeat(2, 1fr);
   margin-top: -10px;
@@ -30,6 +43,10 @@ ul li {
   margin-left: -10px;
   margin-left: 40px;
 }
+
+/*--------------------
+    features area
+---------------------*/
 .featured-image img {
   width: 420px;
 }
