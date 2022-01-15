@@ -35,16 +35,18 @@ body {
 /*------------
      header
 ------------- */
+
 header {
-  margin-top: 40px;
+  height: 120px;
+  background-color: #0a0826;
+  color: aliceblue;
 }
-/* .site-name {
-  font-size: 25px;
-} */
+
 nav {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  padding-top: 40px;
 }
 ul {
   display: flex;
@@ -153,15 +155,46 @@ ul li {
 .info {
   width: 500px;
 }
-
+/*------------------
+     feedback
+------------------*/
+.feedback {
+  display: flex;
+  justify-content: center;
+}
+.feedback-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #e664942a;
+  width: 700px;
+  padding: 50px;
+  border-radius: 10px;
+  margin-top: 60px;
+}
+.feedback-container input,
+textarea {
+  min-height: 30px;
+  font-size: 15px;
+  margin-top: 7px;
+  padding-left: 10px;
+  background-color: #fadde8;
+}
+button {
+  height: 40px;
+  background-color: #e02c6ede;
+  font-size: 20px;
+  font-weight: 700;
+  color: aliceblue;
+  margin-top: 10px;
+}
 /*----------------
       footer 
 -----------------*/
 footer {
-  height: 239px;
+  height: 150px;
   background-color: #0a0826;
   margin-top: 100px;
   color: rgba(240, 248, 255, 0.644);
   text-align: center;
-  padding-top: 95px;
+  padding-top: 60px;
 }
